@@ -1,0 +1,107 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+
+}
+
+html, body{
+  height: 100vh;
+  display:flex ;
+  flex-direction: column;
+}
+
+main{
+  flex: 1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: blue;
+  
+}
+
+/* Banner principal */
+.banner {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.banner p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.banner a {
+  color: #002868;
+  text-decoration: underline;
+}
+
+
+footer {
+  background-color: #002868;
+  color: white;
+  padding: 20px;
+  text-align: center; 
+}
+
+.redes-sociais img {
+  width: 24px;
+  margin: 0 8px;
+}
+
+.logo-rodape {
+  height: 30px;
+  margin-top: 10px;
+}
+
+.centralizar_links {
+  display: flex;
+  justify-content: center;
+}
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+
+.redes-sociais{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.conteiner_imagem{
+ text-align: center;
+ width: 80%;
+}
+
+.conteiner_imagem img {
+
+}
