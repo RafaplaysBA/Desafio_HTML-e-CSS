@@ -1,0 +1,17 @@
+@import "./header.css";
+@import "./footer.css"; 
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  
+  }
+  
+  html, body{
+    height: 100vh;
+   
+  }
+
+  

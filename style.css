@@ -1,5 +1,6 @@
 
-
+@import "./header.css";
+@import "./footer.css";
 body {
   display: flex;
   flex-direction: column;
@@ -21,98 +22,9 @@ main{
   align-items: center;
 }
 
-.cabecalho {
- display:flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.imagem_logo{
-  width: 5%;
-
-}
-
-.imagem_logo img{
-  width: 100%;
-  
-}
-/* .logo {
-  height: 40px;
-} */
-.space{
-  width: 5%;
-  
-}
 
 
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
 
-.menu li a {
-  font-size: 21px;
-  text-decoration: none;
-  color: blue;
-  
-}
-
-/* Banner principal */
-.banner {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.banner p {
-  margin-top: 10px;
-  font-size: 16px;
-}
-
-.banner a {
-  color: #002868;
-  text-decoration: underline;
-}
-
-
-footer {
-  display: flex;  
-  align-items: center;
-  background-color: #002868;
-  color: white;
-  padding: 20px;
-  text-align: center; 
-}
-
-.redes-sociais img {
-  width: 24px;
-  margin: 0 8px;
-}
-
-.logo-rodape {
-  height: 30px;
-  margin-top: 10px;
-}
-
-.centralizar_links {
-  display: flex;
-  justify-content: center;
-}
-
-.info{
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 1rem;
-  align-items: center;
-}
-
-.redes-sociais{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-}
 
 .conteiner_imagem{
  text-align: center;
@@ -125,6 +37,7 @@ footer {
   
 
 }
+
  
 
 

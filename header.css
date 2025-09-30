@@ -1,0 +1,37 @@
+.cabecalho {
+    display:flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px;
+   }
+   
+   .imagem_logo{
+     width: 5%;
+   
+   }
+   
+   .imagem_logo img{
+     width: 100%;
+     
+   }
+   /* .logo {
+     height: 40px;
+   } */
+   .space{
+     width: 5%;
+     
+   }
+   
+   
+   .menu {
+     list-style: none;
+     display: flex;
+     gap: 20px;
+   }
+   
+   .menu li a {
+     font-size: 21px;
+     text-decoration: none;
+     color: blue;
+     
+   }
