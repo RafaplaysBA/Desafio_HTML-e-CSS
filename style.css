@@ -1,4 +1,3 @@
-
 @import "./header.css";
 @import "./footer.css";
 body {
@@ -11,6 +10,7 @@ body {
 
 html, body{
   height: 100vh;
+
  
 }
 

@@ -1,5 +1,6 @@
 @import "./header.css";
 @import "./footer.css"; 
+@import "style.css";
 
 body {
     display: flex;
@@ -14,28 +15,45 @@ body {
    
   }
 
-  .carro{
+  .sessao_contato{
     display: flex;
-  }
-
-  .area_carro{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 47px auto;
-    align-items: center;
-    gap: 10px  ;
-    width: 400px;
-  }
-
-  .imagens_carros{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
   }
 
-  .btn_comparar{
+  .xls {
+    width: 100%;
+  
+  }
+  
+  .bloco_contato{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+   
+    
+  }
+
+  .form_bloco{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    max-width :350px;  
+  }
+  .form_bloco input, select, textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px auto;
+  }
+  .btn_enviar{
     background-color: #1351d8;
     color: white;
     border: none;
@@ -44,15 +62,10 @@ body {
     cursor: pointer;
     margin-bottom:  40px;
     border-radius: 5px;
-
     background-color: #001f65;
-  }
-
-  .img-info{
-    position: relative;
     align-self: flex-end;
-    top: -15px;
-    left: -50px;
   }
-
-  
+ .form_bloco h1{
+    font-size: 25px;
+    
+  }

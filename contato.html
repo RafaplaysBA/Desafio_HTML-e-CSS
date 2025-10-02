@@ -1,11 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./contato.css">
+    <link rel="stylesheet" href="./reset.css">
+    <title>Lançamento</title>
 </head>
+
 <body>
-    
+    <header class="cabecalho">
+        <div class="imagem_logo">
+            <img src="./img/logo-ford-256.png" alt="Logo Ford" class="logo">
+        </div>
+
+        <nav class="menu_navegacao">
+            <ul class="menu">
+                <li><a class="menu_link" href="index.html">Home</a></li>
+                <li><a class="menu_link" href="lancamento.html">Lançamento</a></li>
+                <li><a class="menu_link" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="space"></div>
+    </header>
+
+    <main>
+        <section class="sessao_contato">
+            <div class="bloco_contato">
+                <div class="img_bloco">
+
+                    <img class="xls" src="./img/xls 2.2 diesel.jpg" alt="XLS 2.2 Diesel">
+                </div>
+                <div class="form_bloco">
+                    <h1>Sobre Você</h1>
+                    <form action="">
+                        <input type="text" placeholder="NOME*" required>
+                        <input type="text" placeholder="E-MAIL*" required>
+                        <input type="text" placeholder="CPF*" required>
+                        <input type="text" placeholder="TELEFONE" required>
+                        <select name="" id="">
+                            <option value="" selected disabled hidden>TIPO DE CONTATO</option>
+                            <option value="">ELOGIO</option>
+                            <option value="">RECLAMAÇÃO</option>
+                            <option value="">SOLICITAÇÃO</option>
+                        </select>
+                        <textarea name="" id="" placeholder="Mensagem"></textarea>
+                    </form>
+                    <button class="btn_enviar" type="submit">Enviar</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="info">
+            <div class="redes-sociais">
+                <p>Redes Sociais</p>
+                <a href="https://www.facebook.com/FordBrasil/?locale=pt_BR"><img src="./img/facebook-50.png"
+                        alt="Facebook"></a>
+                <a href="https://www.instagram.com/fordbrasil/"><img src="./img/instagram-logo-50.png"
+                        alt="Instagram"></a>
+                <a href="https://www.youtube.com/fordbrasil"><img src="./img/youtube-squared-50.png" alt="YouTube"></a>
+            </div>
+            <p>&copy;2025 Ford Motor Company - Todos os direitos reservados</p>
+            <img src="./img/ford-96.png" alt="Logo Ford">
+        </div>
+    </footer>
+
 </body>
+
 </html>

@@ -1,22 +1,24 @@
+@import url('https//fonts.cdnfonts.com/css/ford-antenna');
+
 .cabecalho {
     display:flex;
      align-items: center;
      justify-content: space-between;
-     padding: 20px;
+     padding: 5px;
+     box-shadow:1px 1px 6px black ;
+     font-family: "Ford Antenna", sans-serif;
    }
    
    .imagem_logo{
-     width: 5%;
+     width: 9%;
    
    }
    
    .imagem_logo img{
-     width: 100%;
-     
-   }
-   /* .logo {
-     height: 40px;
-   } */
+    width: 100%;
+    
+  }
+  
    .space{
      width: 5%;
      
@@ -34,4 +36,29 @@
      text-decoration: none;
      color: blue;
      
+   }
+   @media (max-width: 750px) {
+     .cabecalho {
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+     }
+   
+     .menu {
+       flex-direction: column;
+       gap: 10px;
+       margin-top: 10px;
+     }
+     .space{
+        display: none;
+     }
+     .imagem_logo {
+      width: 100%;
+      
+    }
+.imagem_logo img{
+      width: 20%;
+      
+    }
+
    }

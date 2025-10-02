@@ -1,12 +1,11 @@
-
-
 footer {
     display: flex;  
     align-items: center;
     background-color: #002868;
     color: white;
     padding: 20px;
-    text-align: center; 
+    text-align: center;
+  
   }
   
   .redes-sociais img {
@@ -24,6 +23,7 @@ footer {
     justify-content: space-between;
     padding: 0.5rem 1rem;
     align-items: center;
+    flex-wrap: wrap;  
   }
   
   .redes-sociais{
@@ -32,3 +32,16 @@ footer {
     align-items: center;
     margin-top: 10px;
   }
+
+  @media (max-width: 712px) {
+    .info {
+      flex-direction: column-reverse;
+      text-align: center;
+      gap: 10px;
+    }
+  
+    .redes-sociais {
+      margin-top: 10px;
+    }
+  }
+  

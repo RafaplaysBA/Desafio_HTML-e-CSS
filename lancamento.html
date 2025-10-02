@@ -17,17 +17,13 @@
 
         <nav class="menu_navegacao">
             <ul class="menu">
-                <li><a class="menu_link" href="index.html">Home</index></a></li>
+                <li><a class="menu_link" href="index.html">Home</a></li>
                 <li><a class="menu_link" href="lancamento.html">Lançamento</a></li>
                 <li><a class="menu_link" href="contato.html">Contato</a></li>
             </ul>
         </nav>
-        <div class="space">
-
-        </div>
-
+        <div class="space"></div>
     </header>
-
 
     <main>
         <section>
@@ -36,43 +32,79 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
+
         <section class="imagens_carros">
-            <div class = "carro">
-                <img src="./img/xls 2.2 diesel.jpg" alt="Imagem Carro 1">
-                <!--input type="checkbox" checked> XLS 2.2 Diesel 4x4 AT 2022 <br> Preço sugerido: R$ 220.690-->
-
+            <div class= area_carro>
+                <div class="carro">
+                    <table>
+                        <tr>
+                            <th><img src="./img/xls 2.2 diesel.jpg" alt="Imagem Carro 1"></th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="xls">
+                                <label for="xls">XLS 2.2 Diesel 4x4 AT 2022</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="price"><span>Preço sugerido: R$ 183.850</span></td>
+                        </tr>
+                    </table>
+                    <img class="img-info" src="./img/info.png" alt="informacao" >
+                </div>
+    
+                <div class="carro">
+                    <table>
+                        <tr>
+                            <th><img src="./img/xls 2.2 diesel.jpg" alt="Imagem Carro 2"></th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="xls2">
+                                <label for="xls2">XLS 2.2 Diesel 4X4 AT 2022</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="price"><span>Preço sugerido: R$ 222.790</span></td>
+                        </tr>
+                    </table>
+                    <img class="img-info" src="./img/info.png" alt="informacao">
+                </div>
+    
+                <div class="carro">
+                    <table>
+                        <tr>
+                            <th><img src="./img/storm.jpg" alt="Imagem Carro 3"></th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="storm">
+                                <label for="storm">Storm 3.2 Diesel 4x4 AT 2022</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="price"><span>Preço sugerido: R$ 222.790</span></td>
+                        </tr>
+                    </table>
+                    <img class="img-info" src="./img/info.png" alt="informacao">
+                </div>               
             </div>
-
-            <div class = "carro">
-                <img src="./img/XL Cabine.jpg" alt="Imagem Carro 2">
-                <!--input type="checkbox" checked> XL Cabine Simples 2.2 Diesel 4x4 MT <br> Preço sugerido: R$ 180.000-->    
-
-            </div>
-            
-            <div class ="carro">
-                <img src="./img/storm.jpg" alt="Imagem Carro 3">
-                <!--input type="checkbox" checked> storm 3.2 Diesel 4X4 AT 2022 <br> Preço sugerido: R$ 222.790>-->
-
-
-            </div>
+            <button class="btn_comparar">Comparar carro</button>
         </section>
-        
     </main>
 
     <footer>
         <div class="info">
-          <div class ="redes-sociais ">
-            <p>Rede Sociais</p>
-            <a href="https://www.facebook.com/FordBrasil/?locale=pt_BR"><img src="./img/facebook-50.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com/fordbrasil/"><img src="./img/instagram-logo-50.png" alt="Instagram"></a>
-            <a href="https://www.youtube.com/fordbrasil"><img src="./img/youtube-squared-50.png" alt="YouTube"></a>
-          </div>
-          <p>&copy;2025 ford Motor Company - Todos os direitos reservados</p>
-          
-          <img src="./img/ford-96.png" alt="Logo Ford" >
+            <div class="redes-sociais">
+                <p>Redes Sociais</p>
+                <a href="https://www.facebook.com/FordBrasil/?locale=pt_BR"><img src="./img/facebook-50.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/fordbrasil/"><img src="./img/instagram-logo-50.png" alt="Instagram"></a>
+                <a href="https://www.youtube.com/fordbrasil"><img src="./img/youtube-squared-50.png" alt="YouTube"></a>
+            </div>
+            <p>&copy;2025 Ford Motor Company - Todos os direitos reservados</p>
+            <img src="./img/ford-96.png" alt="Logo Ford">
         </div>
-        
-      
-      </footer>
+    </footer>
 
 </body>
+</html>
